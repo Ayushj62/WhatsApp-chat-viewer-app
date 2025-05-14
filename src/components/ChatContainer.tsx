@@ -2,8 +2,7 @@ import styled from '@emotion/styled';
 import type { ChatData, Message } from '../types/chat';
 import { ChatMessage } from './ChatMessage';
 import { DateSeparator } from './DateSeparator';
-import { useRef, useEffect, useMemo } from 'react';
-import { format, isEqual, parseISO } from 'date-fns';
+import { useRef, useEffect } from 'react';
 
 const Container = styled.div`
     display: flex;
